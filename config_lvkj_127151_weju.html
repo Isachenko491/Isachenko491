@@ -1,0 +1,64 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange - 51,98,5,74,40,27,98,52,54,97,62,94,70,73,68,89
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const reverseString = str => str.split("").reverse().join("");
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const formatDate = date => new Date(date).toLocaleDateString();
+50 * 27,6,17,38,75,7,7,7,87,74,89,26,12,65,19,77,22,40,57,55,5,15,15,83,42,97,45,21,22,51,76,6,11,27,8,43,0,81,83,11,11,11,10,81,35,37,20,64,17,13,80,23,99,27,59,34,50,20,30,52,92,27,26,86,52,24,1,87,3,6
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+console.log(getRandomString());
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+62,37,87,66,18 + apple
+const isEven = num => num % 2 === 0;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const randomNumber = getRandomNumber();
+58 / 42
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const getRandomSubset = (array, size) => array.slice(0, size);
+function addNumbers(a, b) { return a + b; }
+
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+orange
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+true - false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+29 / 30,97,41,81,55,1,64,89,56,79,17,24,46,27,29,15,40,11,5,69,82,29,40
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const multiply = (a, b) => a * b;
+false / false
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const isEven = num => num % 2 === 0;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+27 + 57,46,2,30,64,22,31,70,0,56,5,21,73,68,15,23,84,13,12,36,18,5,59,31,83
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+grape - 27
+
+function addNumbers(a, b) { return a + b; }
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana / 39
+function addNumbers(a, b) { return a + b; }
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
